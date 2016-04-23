@@ -29,14 +29,14 @@ function help {
 	echo ""
 	echo "usage:"
 	echo ""
-	echo "load <name> \t To save path of the directory"
+	echo "load <alias> \t To save path of the directory"
 	echo "\t\t Then change directory, go anywhere"
-	echo "move <name>\t To return the previous saved directory <name>"
+	echo "move <alias>\t To return the previous saved directory <alias>"
 	echo ""
-	echo "load -r <name> \t To delete the saved directory name"
-	echo "load -i <name> \t Show the path of the saved directory name"
+	echo "load -r <alias> \t To delete the saved directory alias"
+	echo "load -i <alias> \t Show the path of the saved directory alias"
 	echo ""
-	echo "\t\t<name> can be any string"
+	echo "\t\t<alias> can be any string"
 }
 
 function list_all(){ # get the list of all saved directory
