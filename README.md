@@ -8,6 +8,21 @@ It can save many directy paths with alias and move to it in a short command
 load move - (C) 2013-2016 Gregory Senay.
 Released under the GNU GPL.
 
+##load the script
+
+First clone the directory `git clone https://github.com/GregorySenay/loadmove.git`.
+
+The enter in the directory `cd loadmove`.
+
+You have to add and `source` this script in your `~/.bashrc`:
+
+```bash
+echo "source `pwd`/loadmove.bash" >> ~/.bashrc
+```
+or copy an paste in your .bashrc
+``` source $LOADMOVE/loadmove.bash ```
+where ``LOADMOVE`` is the path where the script.
+
 ##usage:
 
 `load <alias>` To save path of the directory
