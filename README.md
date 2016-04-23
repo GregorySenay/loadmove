@@ -21,7 +21,7 @@ echo "source `pwd`/loadmove.bash" >> ~/.bashrc
 ```
 or copy an paste in your .bashrc
 ``` source $LOADMOVE/loadmove.bash ```
-where ``LOADMOVE`` is the path where the script.
+where ``LOADMOVE`` is the path where the script is.
 
 ##usage:
 
