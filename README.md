@@ -40,14 +40,14 @@ Then change directory, go anywhere and enter:
 
 For example, I open a terminal and I go to a directory and need to enter the first time `cd /home/userX/Videos/movies/hollyday/2013/France/Marseille`.
 
-Once inside I can enter the command with load to save the path with an alias ``load marseille2015``.
+Once inside I can enter the command with load to save the path with an alias ``load marseille2013``.
 
-If I open an other terminal I can enter directly just to this directory by typing ``move marseille2015``.
+If I open an other terminal I can enter directly just to this directory by typing ``move marseille2013``.
 This command will automatically do a ``cd /home/userX/Videos/movies/hollyday/2013/France/Marseille`.
 
 All the directory can be listed by autocompletion ``move + <TAB>``.
 
-If you want to remove an alias just use ``load -r <alias>`` like: ``load -r marseille2015``.
+If you want to remove an alias just use ``load -r <alias>`` like: ``load -r marseille2013``.
 
 That's simple: ``load + move``.
 
