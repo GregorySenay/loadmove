@@ -1,11 +1,11 @@
 # load and move bash command
 
-This tool helps to eays navigate in a multi terminal environment.
-It can save many directy paths with alias and move to it in a short command
+This tool helps to navigate in a multi terminal environment with easy commands.
+It can save many directy paths with alias and is able to move on it iwithn a short command
 
 ## How to use
 
-load move - (C) 2013-2016 Gregory Senay.
+loadmove - (C) 2013-2016 Gregory Senay.
 Released under the GNU GPL.
 
 ##load the script
@@ -19,7 +19,7 @@ You have to add and `source` this script in your `~/.bashrc`:
 ```bash
 echo "source `pwd`/loadmove.bash" >> ~/.bashrc
 ```
-or copy an paste in your .bashrc
+or copy and paste in your .bashrc
 ``` source $LOADMOVE/loadmove.bash ```
 where ``LOADMOVE`` is the path where the script is.
 
