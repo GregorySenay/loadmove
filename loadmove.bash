@@ -114,7 +114,7 @@ complete -F _moveload load
 function finish {
 	# Your cleanup code here
 	if [ `pwd` != "$HOME" ] ; then
-	load last
+		load last
 	fi
 }
 trap finish EXIT
