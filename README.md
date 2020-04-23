@@ -42,12 +42,13 @@ Then change directory, go anywhere and enter:
 
 `move <alias>`  To return the previous saved directory alias
 
-`load -r <alias>`To delete the saved directory alias
+`load -r <alias>` To delete the saved directory alias
 
 `load -i <alias>` Show the path of the saved directory alias
 
 `<alias>` can be any string
 
+`move last` go in the lastest path of the last session end
 
 For example, I open a terminal and I go to a directory and need to enter the first time `cd /home/userX/Videos/movies/hollyday/2013/France/Marseille`.
 
