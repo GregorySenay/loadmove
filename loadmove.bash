@@ -109,3 +109,12 @@ _moveload ()   #  By convention, the function name
 
 complete -F _moveload move
 complete -F _moveload load
+
+# when session is closed, keep the `last` path
+function finish {
+	# Your cleanup code here
+	if [ `pwd` != "$HOME" ] ; then
+	load last
+	fi
+}
+trap finish EXIT
